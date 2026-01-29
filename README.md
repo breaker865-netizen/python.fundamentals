@@ -1,2 +1,2 @@
-Still in progress
-README.md will be updated when work is done
+> **Status:** 🚧 Work in Progress (Updated mostly regular)
+README.md will be filled with details when work is done
