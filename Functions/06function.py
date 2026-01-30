@@ -1,0 +1,10 @@
+#recursive function
+# function call itself until it reach base condition 
+
+def factorial(n):
+       if(n==1 or n==0):
+              return 1
+       else:
+              return n*factorial(n-1)
+n=int(input(">>"))
+print(f"factorial of the number is :{factorial(n)}")
