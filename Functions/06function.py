@@ -1,3 +1,11 @@
+''' This is how real factorial is calculated in Maths 
+0!=1
+1!=1
+2!=2 X 1
+3!=3 X 2 X 1
+4!=4 X 3 X 2 X 1
+5!=5 X 4 X 3 X 2 X 1
+'''
 #recursive function
 # function call itself until it reach base condition 
 # calculate factorial
