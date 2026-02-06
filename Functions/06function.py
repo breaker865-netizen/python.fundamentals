@@ -10,9 +10,15 @@
 # function call itself until it reach base condition 
 # calculate factorial
 def factorial(n):
-       if(n==1 or n==0):
-              return 1
-       else:
-             return n*factorial(n-1)
-n=int(input(">>"))
-print(f"factorial of the number is :{factorial(n)}")
+    if n < 0:
+        raise ValueError("Factorial not defined for negative numbers")
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+while True:
+    try:
+        n = int(input(">> "))
+        print(f"factorial of the number is: {factorial(n)}")
+        break
+    except ValueError as e:
+        print("Invalid input:", e)
