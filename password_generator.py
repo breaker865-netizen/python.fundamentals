@@ -13,7 +13,7 @@ while True:
               with open("data.txt", "a") as file:
                 file.write(f"{a1} password is :{password}\n")
                 
-              print(f"✅ Generated and saved: {password}")
+              print(f" Generated and saved: {password}")
               print(f"Stored in data.txt")
 
             
