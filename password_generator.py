@@ -1,6 +1,7 @@
 import random
 stri="1234567890!@#$%^&*()-_=+qwertyuiop[]}\|asdfghjkl:'zxcvbnm<>?,./QWERTYUIOPASDFGHJKLZXCVBNM'"
-
+#above in stri string ,it contain all valid characters 
+# It will generate a strong password
 while True:
        try:
               a=input("password of what [for mail,facebook,bank etc]:")
