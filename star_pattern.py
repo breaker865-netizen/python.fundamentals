@@ -10,4 +10,4 @@ def star_triange(row):
                      for j in range(2*i+1):
                             print("*",end="")
                      print()
-star_triange(6)
+star_triange(500)
