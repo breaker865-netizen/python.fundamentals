@@ -1,4 +1,6 @@
 import math
+# input like :2324.00
+# don't input like :2324
 
 while True:
     print("\n1. Area of Circle")
@@ -28,7 +30,7 @@ while True:
 
     elif ch == '3':
         try:
-            side = float(input("Enter the side of square: "))
+            side = int(input("Enter the side of square: "))
             area = side ** 2
             print(f"Area of Square = {area}")
         except ValueError:
