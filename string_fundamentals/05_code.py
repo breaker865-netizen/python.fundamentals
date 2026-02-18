@@ -8,21 +8,24 @@ while True:
      if irt=='check':
           try:
                a=float(input("Enter First angle:"))
-               b=float(input("Enter First angle:"))
-               c=float(input("Enter First angle:"))
-               sum_of_angle=a+b+c
-               if sum_of_angle==180.00:
-                    print("--The Triangle exists--")
-                    print()
+               b=float(input("Enter second  angle:"))
+               c=float(input("Enter third angle:"))
+               if a<=0 or b<=0 or c<=0:
+                    print("Invalid$")
                else:
-                    print("---The Triangle cannot exists---")
-                    print()
+                    sum_of_angle=a+b+c
+                    if (sum_of_angle-180.00)< 0.0001:
+                         print("--The Triangle exists--")
+                         print()
+                    else:
+                         print("---The Triangle cannot exists---")
+                         print()
           except ValueError:
-               print("---Input valid things" \
-               "please !!!!!")
+                    print("---Input valid things" \
+                    "please !!!!!")
      else:
           print("---Trminated---")
           print()
           break
 
-             
+               
