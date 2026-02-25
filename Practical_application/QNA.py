@@ -16,4 +16,4 @@ elif ans.lower=="yes":
        except FileNotFoundError:
               print("File not found")
 else:
-       print("That wasn't a yes or no... even Bash would be confused.")
+       print("That wasnt a yes or no... even Bash would be confused.")
