@@ -52,9 +52,10 @@ python.fundamentals/
 
 ├── class_/ # OOP and class-based programs
 
+├── go-python-integration/  # This example shows how Go executes a Python script using os/exec.
+
 ├── Practical_application/ # Small real-world examples
 
-│
 ├── NAME.py # Basic Python practice file
 
 ├── README.md
