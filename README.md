@@ -37,26 +37,26 @@ The goal of this project is to:
 
 
 python.fundamentals/
-│
-├── list/ # List operations and example
 
-├── Tuples/ # Tuple usage and concepts
+├── list  # List operations and example
 
-├── Dictionary/ # Dictionary operations
+├── Tuples  # Tuple usage and concepts
 
-├── string_fundamentals/ # String methods and manipulation
+├── Dictionary  # Dictionary operations
 
-├── loops/ # Loop examples and patterns
+├── string_fundamentals # String methods and manipulation
 
-├── Functions/ # Function definitions and use cases
+├── loops  # Loop examples and patterns
 
-├── class_/ # OOP and class-based programs
+├── Functions  # Function definitions and use cases
 
-├── go-python-integration/  # This example shows how Go executes a Python script using os/exec.
+├── class_  # OOP and class-based programs
 
-├── Practical_application/ # Small real-world examples
+├── go-python-integration  # This example shows how Go executes a Python script using os/exec.
 
-├── NAME.py # Basic Python practice file
+├── Practical_application  # Small real-world examples
+
+├── NAME.py   # Basic Python practice file
 
 ├── README.md
 
