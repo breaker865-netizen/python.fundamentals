@@ -13,7 +13,7 @@ func main() {
 	num2 := "7"
 
 	// Run Python script
-	cmd := exec.Command("python3", "add.py", num1, num2)
+	cmd := exec.Command("py", "add.py", num1, num2)
 
 	output, err := cmd.CombinedOutput()
 	if err != nil {
