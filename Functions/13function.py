@@ -6,7 +6,7 @@ def https_status(code):
               case 400:
                      return "warning!!"
               case 404:
-                     return "bad request"
+                     return "----NOT FOUND----"
               case 500:
                      return "------sever error[::::::]--------\nhttps://1111/x55/000000x/"
               case _:
