@@ -38,7 +38,7 @@ print(f"The factorial of 23={num1.factorial()}")
 print(f"The square root of 23={num1.squareroot()}")
 print(num1.table_number())
 print(num1.sin_cos_tan())
-print()
+
 
 num2=Calculator(234)
 print(f"The factorial of 234={num2.factorial()}")
